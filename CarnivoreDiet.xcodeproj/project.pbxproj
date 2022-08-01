@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3D81C6288B2A2C0084E03D /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D81C5288B2A2C0084E03D /* TrackingView.swift */; };
+		9A3D81C8288BF9EB0084E03D /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D81C7288BF9EB0084E03D /* HowToView.swift */; };
+		9A4FF69726FB799100FC5E5F /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69626FB799100FC5E5F /* FAQView.swift */; };
+		9A4FF69A26FB79B600FC5E5F /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69926FB79B600FC5E5F /* ResourcesView.swift */; };
+		9A4FF69D26FB79E400FC5E5F /* HowToDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69C26FB79E400FC5E5F /* HowToDetail.swift */; };
+		9A4FF6A026FB79EF00FC5E5F /* FAQDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69F26FB79EF00FC5E5F /* FAQDetail.swift */; };
 		9A53BD8426EFA94C00466E5B /* CarnivoreDietApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BD8326EFA94C00466E5B /* CarnivoreDietApp.swift */; };
 		9A53BD8626EFA94C00466E5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53BD8526EFA94C00466E5B /* ContentView.swift */; };
 		9A53BD8826EFA94D00466E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A53BD8726EFA94D00466E5B /* Assets.xcassets */; };
 		9A53BD8B26EFA94D00466E5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A53BD8A26EFA94D00466E5B /* Preview Assets.xcassets */; };
+		9A5960882704AD3A00E3A9EB /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5960872704AD3A00E3A9EB /* NotesView.swift */; };
+		9A59608C2704C7A300E3A9EB /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59608B2704C7A300E3A9EB /* AddNote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A3D81C5288B2A2C0084E03D /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		9A3D81C7288BF9EB0084E03D /* HowToView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
+		9A4FF69626FB799100FC5E5F /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		9A4FF69926FB79B600FC5E5F /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		9A4FF69C26FB79E400FC5E5F /* HowToDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDetail.swift; sourceTree = "<group>"; };
+		9A4FF69F26FB79EF00FC5E5F /* FAQDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQDetail.swift; sourceTree = "<group>"; };
 		9A53BD8026EFA94C00466E5B /* CarnivoreDiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarnivoreDiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A53BD8326EFA94C00466E5B /* CarnivoreDietApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivoreDietApp.swift; sourceTree = "<group>"; };
 		9A53BD8526EFA94C00466E5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A53BD8726EFA94D00466E5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A53BD8A26EFA94D00466E5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A53BD8C26EFA94D00466E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5960872704AD3A00E3A9EB /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		9A59608B2704C7A300E3A9EB /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 			children = (
 				9A53BD8326EFA94C00466E5B /* CarnivoreDietApp.swift */,
 				9A53BD8526EFA94C00466E5B /* ContentView.swift */,
+				9A3D81C7288BF9EB0084E03D /* HowToView.swift */,
+				9A4FF69626FB799100FC5E5F /* FAQView.swift */,
+				9A3D81C5288B2A2C0084E03D /* TrackingView.swift */,
+				9A4FF69926FB79B600FC5E5F /* ResourcesView.swift */,
+				9A5960872704AD3A00E3A9EB /* NotesView.swift */,
+				9A4FF69C26FB79E400FC5E5F /* HowToDetail.swift */,
+				9A4FF69F26FB79EF00FC5E5F /* FAQDetail.swift */,
+				9A59608B2704C7A300E3A9EB /* AddNote.swift */,
 				9A53BD8726EFA94D00466E5B /* Assets.xcassets */,
 				9A53BD8C26EFA94D00466E5B /* Info.plist */,
 				9A53BD8926EFA94D00466E5B /* Preview Content */,
@@ -138,8 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4FF6A026FB79EF00FC5E5F /* FAQDetail.swift in Sources */,
 				9A53BD8626EFA94C00466E5B /* ContentView.swift in Sources */,
+				9A4FF69A26FB79B600FC5E5F /* ResourcesView.swift in Sources */,
 				9A53BD8426EFA94C00466E5B /* CarnivoreDietApp.swift in Sources */,
+				9A3D81C8288BF9EB0084E03D /* HowToView.swift in Sources */,
+				9A4FF69726FB799100FC5E5F /* FAQView.swift in Sources */,
+				9A5960882704AD3A00E3A9EB /* NotesView.swift in Sources */,
+				9A59608C2704C7A300E3A9EB /* AddNote.swift in Sources */,
+				9A3D81C6288B2A2C0084E03D /* TrackingView.swift in Sources */,
+				9A4FF69D26FB79E400FC5E5F /* HowToDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
