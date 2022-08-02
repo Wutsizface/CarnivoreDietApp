@@ -10,8 +10,9 @@ import SwiftUI
 struct TrackingView: View {
     var body: some View {
         NavigationView {
-            
-        }
+            Text ("You may find it helpful to track what you eat on a daily basis and adjust your food amounts as needed.")
+                .navigationBarTitle("Tracker")
+        } 
     }
 }
 
