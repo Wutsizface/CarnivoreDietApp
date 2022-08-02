@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A3D81C6288B2A2C0084E03D /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D81C5288B2A2C0084E03D /* TrackingView.swift */; };
 		9A3D81C8288BF9EB0084E03D /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D81C7288BF9EB0084E03D /* HowToView.swift */; };
+		9A4454B12899774F005156D7 /* AddTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4454B02899774F005156D7 /* AddTracking.swift */; };
 		9A4FF69726FB799100FC5E5F /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69626FB799100FC5E5F /* FAQView.swift */; };
 		9A4FF69A26FB79B600FC5E5F /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69926FB79B600FC5E5F /* ResourcesView.swift */; };
 		9A4FF69D26FB79E400FC5E5F /* HowToDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69C26FB79E400FC5E5F /* HowToDetail.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9A3D81C5288B2A2C0084E03D /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
 		9A3D81C7288BF9EB0084E03D /* HowToView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
+		9A4454B02899774F005156D7 /* AddTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTracking.swift; sourceTree = "<group>"; };
 		9A4FF69626FB799100FC5E5F /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		9A4FF69926FB79B600FC5E5F /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 		9A4FF69C26FB79E400FC5E5F /* HowToDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToDetail.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				9A3D81C5288B2A2C0084E03D /* TrackingView.swift */,
 				9A4FF69926FB79B600FC5E5F /* ResourcesView.swift */,
 				9A5960872704AD3A00E3A9EB /* NotesView.swift */,
+				9A4454B02899774F005156D7 /* AddTracking.swift */,
 				9A4FF69C26FB79E400FC5E5F /* HowToDetail.swift */,
 				9A4FF69F26FB79EF00FC5E5F /* FAQDetail.swift */,
 				9A59608B2704C7A300E3A9EB /* AddNote.swift */,
@@ -166,6 +169,7 @@
 				9A53BD8626EFA94C00466E5B /* ContentView.swift in Sources */,
 				9A4FF69A26FB79B600FC5E5F /* ResourcesView.swift in Sources */,
 				9A53BD8426EFA94C00466E5B /* CarnivoreDietApp.swift in Sources */,
+				9A4454B12899774F005156D7 /* AddTracking.swift in Sources */,
 				9A3D81C8288BF9EB0084E03D /* HowToView.swift in Sources */,
 				9A4FF69726FB799100FC5E5F /* FAQView.swift in Sources */,
 				9A5960882704AD3A00E3A9EB /* NotesView.swift in Sources */,
