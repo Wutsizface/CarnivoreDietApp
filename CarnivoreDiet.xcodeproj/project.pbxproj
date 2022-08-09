@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A3D81C6288B2A2C0084E03D /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D81C5288B2A2C0084E03D /* TrackingView.swift */; };
 		9A3D81C8288BF9EB0084E03D /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3D81C7288BF9EB0084E03D /* HowToView.swift */; };
 		9A4454B12899774F005156D7 /* AddTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4454B02899774F005156D7 /* AddTracking.swift */; };
 		9A4FF69726FB799100FC5E5F /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4FF69626FB799100FC5E5F /* FAQView.swift */; };
@@ -20,10 +19,10 @@
 		9A53BD8B26EFA94D00466E5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A53BD8A26EFA94D00466E5B /* Preview Assets.xcassets */; };
 		9A5960882704AD3A00E3A9EB /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5960872704AD3A00E3A9EB /* NotesView.swift */; };
 		9A59608C2704C7A300E3A9EB /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A59608B2704C7A300E3A9EB /* AddNote.swift */; };
+		9AC13BFC28A2EC540091A4EA /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC13BFB28A2EC540091A4EA /* TrackerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A3D81C5288B2A2C0084E03D /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
 		9A3D81C7288BF9EB0084E03D /* HowToView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
 		9A4454B02899774F005156D7 /* AddTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTracking.swift; sourceTree = "<group>"; };
 		9A4FF69626FB799100FC5E5F /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		9A53BD8C26EFA94D00466E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A5960872704AD3A00E3A9EB /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		9A59608B2704C7A300E3A9EB /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
+		9AC13BFB28A2EC540091A4EA /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				9A53BD8526EFA94C00466E5B /* ContentView.swift */,
 				9A3D81C7288BF9EB0084E03D /* HowToView.swift */,
 				9A4FF69626FB799100FC5E5F /* FAQView.swift */,
-				9A3D81C5288B2A2C0084E03D /* TrackingView.swift */,
+				9AC13BFB28A2EC540091A4EA /* TrackerView.swift */,
 				9A4FF69926FB79B600FC5E5F /* ResourcesView.swift */,
 				9A5960872704AD3A00E3A9EB /* NotesView.swift */,
 				9A4FF69C26FB79E400FC5E5F /* HowToDetail.swift */,
@@ -165,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC13BFC28A2EC540091A4EA /* TrackerView.swift in Sources */,
 				9A4FF6A026FB79EF00FC5E5F /* FAQDetail.swift in Sources */,
 				9A53BD8626EFA94C00466E5B /* ContentView.swift in Sources */,
 				9A4FF69A26FB79B600FC5E5F /* ResourcesView.swift in Sources */,
@@ -174,7 +175,6 @@
 				9A4FF69726FB799100FC5E5F /* FAQView.swift in Sources */,
 				9A5960882704AD3A00E3A9EB /* NotesView.swift in Sources */,
 				9A59608C2704C7A300E3A9EB /* AddNote.swift in Sources */,
-				9A3D81C6288B2A2C0084E03D /* TrackingView.swift in Sources */,
 				9A4FF69D26FB79E400FC5E5F /* HowToDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +308,7 @@
 				DEVELOPMENT_TEAM = P76FUDVU7R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CarnivoreDiet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +330,7 @@
 				DEVELOPMENT_TEAM = P76FUDVU7R;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CarnivoreDiet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

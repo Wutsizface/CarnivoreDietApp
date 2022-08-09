@@ -20,7 +20,7 @@ struct ContentView: View {
                     Label("FAQ", systemImage: "questionmark.circle")
             }
             
-            TrackingView()
+            TrackerView()
                 .tabItem{
                     Label("Tracker", systemImage: "plus")
                 }
